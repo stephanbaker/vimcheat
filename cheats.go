@@ -237,3 +237,17 @@ var searchInMultipleFiles = CheatGroup{
 		Cheat{":copen", "open a window containing the list of matches"},
 	},
 }
+
+var folding = CheatGroup{
+	Name: "Folding",
+	Cheats: []Cheat{
+		Cheat{"zo", "open a fold (single levl)"},
+		Cheat{"zO", "open a fold (all levels)"},
+		Cheat{"zc", "close a fold (single level)"},
+		Cheat{"zC", "close a fold (single level)"},
+		Cheat{"zr", "open one level of folds throughout the entire buffer"},
+		Cheat{"zR", "open all folds"},
+		Cheat{"zm", "close one level of folds throughout the entire buffer"},
+		Cheat{"zM", "close all folds"},
+	},
+}

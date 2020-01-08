@@ -18,6 +18,7 @@ func main() {
 		exiting,
 		searchAndReplace,
 		searchInMultipleFiles,
+		folding,
 	}
 
 	for _, g := range groups {
